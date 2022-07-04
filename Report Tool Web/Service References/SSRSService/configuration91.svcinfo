@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="ReportingService2010Soap" contract="SSRSService.ReportingService2010Soap" bindingType="basicHttpBinding" address="http://10.10.14.9/ReportServer_SSRS/ReportService2010.asmx" bindingConfiguration="ReportingService2010Soap">
+    <endpoint name="ReportingService2010Soap" contract="SSRSService.ReportingService2010Soap" bindingType="basicHttpBinding" address="http://xx.xx.xx.xx/ReportServer_SSRS/ReportService2010.asmx" bindingConfiguration="ReportingService2010Soap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://10.10.14.9:80/ReportServer_SSRS/ReportService2010.asmx</serializedValue>
+          <serializedValue>http://xx.xx.xx.xx:80/ReportServer_SSRS/ReportService2010.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

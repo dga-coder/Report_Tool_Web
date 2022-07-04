@@ -890,10 +890,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://10.10.14.9/ReportServer_SSRS/ReportService2010.asmx%3fwsdl">
+    <WebReferenceUrl Include="http://xx.xx.xx.xx/ReportServer_SSRS/ReportService2010.asmx%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\SSRS\</RelPath>
-      <UpdateFromURL>http://10.10.14.9/ReportServer_SSRS/ReportService2010.asmx%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://xx.xx.xx.xx/ReportServer_SSRS/ReportService2010.asmx%3fwsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

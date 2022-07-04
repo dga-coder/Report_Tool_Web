@@ -34,7 +34,7 @@ namespace Report_Tool_Web
 
         }
 
-        string pathRS = @"\\10.10.14.35\\d$\\Projects";
+        string pathRS = @"\\xx.xx.xx.xx\\d$\\Projects";
         List<string> newcheckedlist = new List<string>();
         List<string> logMessages = new List<string>();
         List<string> depMessages = new List<string>();
@@ -620,7 +620,7 @@ namespace Report_Tool_Web
             {
                 string[] newvrg = vrg.Split('\\');
                 SSRS.ReportingService2010 rs = new ReportingService2010();
-                rs.Url = "http://10.10.14.9/ReportServer_SSRS/ReportService2010.asmx";
+                rs.Url = "http://xx.xx.xx.xx/ReportServer_SSRS/ReportService2010.asmx";
                 rs.Credentials = System.Net.CredentialCache.DefaultCredentials;
                 Byte[] definition = null;
                 Warning[] warnings = null;

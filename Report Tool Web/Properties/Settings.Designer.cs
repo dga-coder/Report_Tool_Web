@@ -26,7 +26,7 @@ namespace Report_Tool_Web.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://10.10.14.9:80/ReportServer_SSRS/ReportService2010.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://xx.xx.xx.xx:80/ReportServer_SSRS/ReportService2010.asmx")]
         public string Report_Tool_Web_SSRS_ReportingService2010 {
             get {
                 return ((string)(this["Report_Tool_Web_SSRS_ReportingService2010"]));
